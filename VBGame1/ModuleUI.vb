@@ -28,6 +28,7 @@
     '***Вывод текста в информационное поле***
     Private frmUI As Form_Main
 
+    ' Конструктор
     Public Sub New(f As Form)
         frmUI = f
     End Sub
