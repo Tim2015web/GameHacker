@@ -240,7 +240,6 @@ Partial Class Form_Main
         Me.Label_Life7 = New System.Windows.Forms.Label()
         Me.TextBox_Event = New System.Windows.Forms.TextBox()
         Me.Timer_Edu = New System.Windows.Forms.Timer(Me.components)
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Panel_Service.SuspendLayout()
         Me.GroupBox_Work.SuspendLayout()
         Me.GroupBox_House.SuspendLayout()
@@ -2633,22 +2632,12 @@ Partial Class Form_Main
         '
         Me.Timer_Edu.Interval = 1000
         '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(656, 560)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(160, 56)
-        Me.Button8.TabIndex = 42
-        Me.Button8.Text = "Button8"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
         'Form_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1183, 669)
-        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.TextBox_Event)
         Me.Controls.Add(Me.Panel_Life1)
         Me.Controls.Add(Me.GroupBox_Money)
@@ -2936,5 +2925,4 @@ Partial Class Form_Main
     Friend WithEvents Button2 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Button8 As Button
 End Class
