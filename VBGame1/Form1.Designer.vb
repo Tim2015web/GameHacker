@@ -2637,7 +2637,7 @@ Partial Class Form_Main
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(1183, 669)
+        Me.ClientSize = New System.Drawing.Size(961, 669)
         Me.Controls.Add(Me.TextBox_Event)
         Me.Controls.Add(Me.Panel_Life1)
         Me.Controls.Add(Me.GroupBox_Money)
