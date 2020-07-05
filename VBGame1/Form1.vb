@@ -297,6 +297,7 @@
         Try
             Dim ItemCost As Integer
 
+
             ItemCost = 100
 
             GameLogic.BuyItem(ItemCost)
